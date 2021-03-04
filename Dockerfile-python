@@ -1,0 +1,4 @@
+FROM python
+COPY code.py   python-script.py
+RUN chmod +X /python-script.py
+CMD ["python","/python-script.py"]
